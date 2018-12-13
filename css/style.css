@@ -1,0 +1,398 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: lightblue;
+	padding-bottom: 100px;
+}
+
+img {
+	width: 200px;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	list-style-type: none;
+	width: 80%;
+	padding: 10px;
+	margin-top: 0;
+	background-color: white;
+}
+
+li {
+	display: inline;
+	width: 50px;
+	padding: 0 30px;
+	margin: 0 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#hello {
+	padding-top: 300px;
+	margin: 20px auto;
+}
+
+div {
+	padding: 50px 0;
+	margin: 300px auto;
+}
+
+button {
+	background: none;
+	color: black;
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+#pone {
+	display: none;
+	color: white;
+}
+
+#one1 {
+	background-color: lightsalmon;
+	width: 300px;
+	padding: 20px 0;
+	margin: 10px;
+	transition: width 1s;
+}
+
+#ptwo {
+	display: none;
+	color: white;
+}
+
+#two2 {
+	background-color: yellowgreen;
+	width: 300px;
+	padding: 20px 0;
+	margin: 10px;
+	transition: width 1s;
+}
+
+
+
+#johnnyy {
+	display: none;
+	width: 200px;
+	background-color: forestgreen;
+	padding: 15px 10px;
+	margin-top: 10px;
+	transition: width 1s;
+}
+
+#bjohnny {
+	display: none;
+}
+
+#jmore {
+	display: none;
+}
+
+#kimm {
+	display: none;
+	width: 200px;
+	background-color: forestgreen;
+	padding: 15px 10px;
+	margin-top: 10px;
+	transition: width 1s;
+}
+
+#bkim {
+	display: none;
+}
+
+#kmore {
+	display: none;
+}
+
+#tommyy {
+	display: none;
+	width: 200px;
+	background-color: forestgreen;
+	padding: 15px 10px;
+	margin-top: 10px;
+	transition: width 1s;
+}
+
+#btommy {
+	display: none;
+}
+
+#tmore {
+	display: none;
+}
+
+#smore {
+	display: none;
+}
+
+#bgt {
+	display: none;
+}
+
+#bclass {
+	display: none;
+}
+
+
+
+
+
+#pthree {
+	display: none;
+	color: white;
+}
+
+#three3 {
+	background-color: peachpuff;
+	width: 300px;
+	padding: 20px 0;
+	margin: 10px;
+	transition: width 1s;
+}
+
+#school {
+	padding: 5px;
+	margin: 0;
+	width: 500px;
+}
+
+#schoolpic {
+	width: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#summer, #uncle {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#bnext1, #bnext2, #bnext3, #bnext4 {
+	display: none;
+	font-size: 15px;
+}
+
+#get {
+	display: none;
+	width: 200px;
+	background-color: #E7AB76;
+	padding: 15px 10px;
+	margin-top: 10px;
+	transition: width 1s;
+}
+
+#gmore {
+	display: none;
+}
+
+#sub {
+	display: none;
+	width: 200px;
+	background-color: #E7AB76;
+	padding: 15px 10px;
+	margin-top: 10px;
+	transition: width 1s;
+}
+
+#submore {
+	display: none;
+}
+
+div #get, div #sub {
+	margin: 10px;
+}
+
+
+
+#pfour {
+	display: none;
+	color: white;
+}
+
+#four4 {
+	background-color: orchid;
+	width: 300px;
+	padding: 20px 0;
+	margin: 10px;
+	transition: width 1s;
+}
+
+#people {
+	padding: 10px;
+	margin: 10px;
+}
+
+table {
+	display: none;
+	width: 800px;
+	margin: auto;
+}
+
+td {
+	padding: 10px;
+}
+
+#summerr, #jkim, #b99, #cat, #uh, #yes, #saiki, #bagel {
+	width: 180px;
+}
+
+#summerr:hover {
+	animation-name: asummerr;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes asummerr {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#jkim:hover {
+	animation-name: ajkim;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ajkim {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#b99:hover {
+	animation-name: ab99;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ab99 {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#cat:hover {
+	animation-name: acat;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes acat {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#uh:hover {
+	animation-name: auh;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes auh {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#yes:hover {
+	animation-name: ayes;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ayes {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#saiki:hover {
+	animation-name: asaiki;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes asaiki {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+#bagel:hover {
+	animation-name: abagel;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes abagel {
+	from {width: 180px;}
+	to {width: 300px;}
+}
+
+
+
+#five5 {
+	background-color: gold;
+	width: 300px;
+	padding: 20px 0;
+	margin: 10px;
+	opacity: 1;
+	transition: opacity 2s;
+}
+
+#puppycat {
+	width: 500px;
+	margin-top: -10px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+.cp_embed_wrapper {
+	width: 500px;
+}
+
+.cp_embed_wrapper iframe {
+	height: 500px;
+	margin-top: -350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
